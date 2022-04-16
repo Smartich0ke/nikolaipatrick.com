@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I'm Nikolai Patrick I'm interested in electronics engineering, computer sciences, photogrpahy and more. This is my personal website where I can share my work." />
+    <link rel="stylesheet" href="css/master.css">
+      <link rel="stylesheet" href="css/index.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Nikolai Patrick</title>
+    <script src="scripts/master.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </head>
+  <body onload="onLoadFunctions()">
+    <div class="dropdown">
+      <img src="img/circle-chevron-down-solid.svg" onclick="openMenu()" class="dropbtn" width="32" height="32" />
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="photography.html">Photography</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div id="title_block">
+      <p><span id="title">Home - Nikolai Patrick</span></p>
+      <span id="titlePadding"></span>
+      <p><span id="subtitle">Electronics Engineering <span class="subtitleSpace"></span> Programming <span class="subtitleSpace"></span> Photography</span><br/><span id="bodytext"</span></p>
+    </div>
+    <div class="footer" >
+      <div class="socials" >
+        <a href="https://www.youtube.com/channel/UC4-lTd3J9tmKrJ7WAkfUgSw"><img src="img/youtube.svg" width="32" height="32" /></a>
+        <a href="https://github.com/Smartich0ke"><img src="img/github.svg"  width="32" height="32" /></a>
+        <a href="https://instagram.com/npatrick_photos"><img src="img/instagram.svg" width="32" height="32" /></a>
+        <div class="discordToolTip">
+          <img src="img/discord.svg" onclick="copyDiscord()" width="32" height="32" />
+          <span class="discordToolTipText" id="tag">Artichoke#4180</span>
+        </div>
+        <a href="https://stackexchange.com/users/10142602/hotglue"><img src="img/stack.svg" width="31" height="31" /></a>
+      </div>
+      <p class="footerText">Last Updated: <span class="lastUpdated"></span> <span class="footerPadding"></span> <a href="https://github.com" class="bodyGithubLink" >View on GitHub</a></p>
+    </div>
+  </body>
+</html>

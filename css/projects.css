@@ -1,0 +1,16 @@
+.rightProjectContainer {
+
+}
+.projectTitle {
+  display: block;
+}
+.projectDate {
+  display: block;
+}
+.projectDesc {
+  display: block;
+}
+.projectImg {
+  top: 0;
+  float: right;
+}

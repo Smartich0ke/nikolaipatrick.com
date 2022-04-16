@@ -1,0 +1,36 @@
+
+#title {
+  color: white;
+  padding-top: 40%;
+  font-size: 50px;
+}
+#title_block {
+    padding-top: 15%;
+
+    animation: 1s ease-out 0s 1 fadeinFromBottom;
+}
+#subtitle{
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+#bodytext {
+  color: white;
+}
+#titlePadding {
+  padding: 50px;
+}
+@keyframes fadeinFromBottom {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1.0;
+
+  }
+}
