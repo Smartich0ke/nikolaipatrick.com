@@ -1,10 +1,12 @@
 .projectContainer {
-  border: 1px solid #171717;
+  //border: 1px solid #5e5e5e;
   border-radius: 6px;
   padding: 5px;
   display: inline-flex;
   flex-direction: column;
   width: 33.333%;
+  background-color: #f5f5f5;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .projectTitle {
   display: inline-block;
@@ -13,10 +15,12 @@
 }
 .projectDate {
   display: inline-block;
-  color: #4d4d4d;
+  color: #a1a1a1;
+  font-style: italic;
 }
 .projectDesc {
   display: inline-block;
+  color: #5e5e5e;
 }
 .projectImg {
   display: inline-block;
