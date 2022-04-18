@@ -1,4 +1,7 @@
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 function copyDiscord() {
   var discordTag = "Artichoke#4180";
   navigator.clipboard.writeText(discordTag);

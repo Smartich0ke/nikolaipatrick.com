@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="text/javascript" src="scripts/master.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+    </script>
   </head>
   <body onload="onLoadFunctions()">
     <div class="dropdown">

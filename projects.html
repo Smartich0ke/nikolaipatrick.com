@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="text/javascript" src="scripts/master.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        AOS.init();
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+      });
+
+    </script>
   </head>
   <body onload="onLoadFunctions()">
     <div class="dropdown">
@@ -27,7 +36,7 @@
         <p class="titleText" >Projects</p>
       </div>
       <div id="projectsPanel">
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -39,7 +48,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -51,7 +60,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -63,7 +72,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" data-aos-delay="50">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -75,7 +84,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" data-aos-delay="100">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -87,7 +96,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" data-aos-delay="150">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -99,7 +108,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" data-aos-delay="200">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -111,7 +120,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" >
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -123,7 +132,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up" >
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -135,7 +144,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -147,7 +156,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
@@ -159,7 +168,7 @@
           </p>
           <img class="projectImg" src="img/DSC_2312.JPG" width="30%" />
         </div>
-        <div class="projectContainer" >
+        <div class="projectContainer" data-aos="zoom-in-up">
           <p class="projectTitle">Project Title</p>
           <p class="projectDate">15/04/2022</p>
           <p class="projectDesc">
