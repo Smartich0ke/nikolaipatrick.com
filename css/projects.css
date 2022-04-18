@@ -4,10 +4,15 @@
   padding: 5px;
   display: inline-flex;
   flex-direction: column;
-  width: 31.3%;
+  width: 30.3%;
   background-color: #f5f5f5;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin: 5px;
+}
+#projectsPanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .projectTitle {
   display: inline-block;
@@ -43,3 +48,14 @@
   src: url(../fonts/Lato-Italic.ttf);
   font-style: italic;
 }
+
+@media only screen and (max-width: 850px) {
+  .projectContainer {
+    width:45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projectContainer {
+    width: 100%;
+  }
