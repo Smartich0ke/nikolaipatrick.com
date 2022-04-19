@@ -1,0 +1,61 @@
+.projectContainer {
+  //border: 1px solid #5e5e5e;
+  border-radius: 6px;
+  padding: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30.3%;
+  background-color: #f5f5f5;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 5px;
+}
+#projectsPanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectTitle {
+  display: inline-block;
+  font-style: bold;
+  font-size: 20px;
+}
+.projectDate {
+  display: inline-block;
+  color: #a1a1a1;
+  font-style: italic;
+}
+.projectDesc {
+  display: inline-block;
+  color: #5e5e5e;
+}
+.projectImg {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+@font-face {
+  font-family: cuyabra;
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: cuyabra;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: cuyabra;
+  src: url(../fonts/Lato-Italic.ttf);
+  font-style: italic;
+}
+
+@media only screen and (max-width: 850px) {
+  .projectContainer {
+    width:45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projectContainer {
+    width: 100%;
+  }
