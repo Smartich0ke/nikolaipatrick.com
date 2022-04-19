@@ -1,6 +1,8 @@
 # nikolaipatrick.com
 ## Personal website for linking socials, photography, etc.
 
+### Visit the site here: https://nikolaipatrick.com
+
 ### File structure:
 ```
 documentRoot/
