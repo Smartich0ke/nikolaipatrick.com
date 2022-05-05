@@ -1,0 +1,52 @@
+@font-face {
+  src: url(../fonts/Lato-Thin.ttf);
+  font-family: lato-thin;
+}
+@font-face {
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: lato;
+}
+@font-face {
+  src: url(../fonts/Lato-Bold.ttf);
+  font-family: lato-bold;
+
+}
+@font-face {
+  src: url(../fonts/Lato-ThinItalic.ttf);
+  font-family: lato-thin-italics;
+
+}
+@font-face {
+  src: url(../fonts/Lato-Light.ttf);
+  font-family: lato-light;
+
+}
+.resources-header {
+  font-family: lato-light;
+}
+.resources-desc {
+  font-family: lato-light;
+}
+.site-link {
+  font-family: lato-thin-italics;
+
+}
+.body-flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.mainContent {
+
+}
+hr {
+  height: 1px;
+  color: black;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
