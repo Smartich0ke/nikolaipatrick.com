@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: master-template.html
-Disallow: googlefcc48ff034356f42.html
 Disallow: error404.html
 Disallow: error403.html
 Disallow: error500.html
