@@ -22,7 +22,7 @@ documentRoot/
 ```
 
 * **DNS / Domain registrar:** Cloudflare
-* **SSL/TLS certificate Let's Encrypt, Cloudflare**
+* **SSL/TLS certificate:** Let's Encrypt, Cloudflare
 * **Webserver:** Apache 2 on Ubuntu 20.04
 
 ## External libraries:
