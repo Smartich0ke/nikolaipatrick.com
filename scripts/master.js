@@ -32,7 +32,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 function updateEditTime() {
-  var lastUpdatedText = "6 May 2022";
+  var lastUpdatedText = "17 July 2022";
   //document.getElementById("lastUpdated").innerHTML = "Copied!";
   const collection = document.getElementsByClassName("lastUpdated");
   for (let i = 0; i < collection.length; i++) {
