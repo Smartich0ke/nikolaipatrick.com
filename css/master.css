@@ -26,11 +26,11 @@ body {
   border: none;
   cursor: pointer;
   background: none;
-  transform: rotate(-90deg);
 }
 
 .dropbtn:hover, .dropbtn:focus {
-
+  -webkit-filter: invert(20%);
+  filter: invert(20%);
 }
 
 .dropdown {
@@ -46,6 +46,7 @@ body {
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 7px;
 }
 
 .dropdown-content a {

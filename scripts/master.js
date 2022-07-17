@@ -10,10 +10,6 @@ function copyDiscord() {
 }
 function openMenu() {
   const collection = document.getElementsByClassName("dropbtn");
-  for (let i = 0; i < collection.length; i++) {
-    collection[i].style.transition = "transform .3s ease-in-out";
-    collection[i].style.transform = "rotate(3deg)";
-  }
   document.getElementById("myDropdown").classList.toggle("show");
 }
 window.onclick = function(event) {
@@ -25,10 +21,6 @@ window.onclick = function(event) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         const collection = document.getElementsByClassName("dropbtn");
-        for (let i = 0; i < collection.length; i++) {
-          collection[i].style.transition = "transform .3s ease-in-out";
-          collection[i].style.transform = "rotate(-90deg)";
-        }
         openDropdown.classList.remove('show');
       }
     }
