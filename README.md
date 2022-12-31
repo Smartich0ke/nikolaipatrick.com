@@ -1,5 +1,6 @@
 # nikolaipatrick.com
 ## Personal website for linking socials, photography, etc.
+A very simple static site. Written with plain HTML/CSS and JS
 
 ### Visit the site here: https://nikolaipatrick.com
 
