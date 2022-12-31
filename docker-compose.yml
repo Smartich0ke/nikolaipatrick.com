@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app:
+    image: 'artichoke1/nikolaipatrick.com:1.0.0'
+    container_name: 'nikolaipatrick.com-app-1'
+    networks:
+      - bridge
+    ports:
+      - '8080:80'
+networks:
+  bridge:
+    driver: bridge
