@@ -1,4 +1,6 @@
 # nikolaipatrick.com
+
+## ARCHIVED - go check out https://github.com/Smartich0ke/FerriteCMS
 ## Personal website for linking socials, photography, etc.
 A very simple static site. Written with plain HTML/CSS and JS
 
